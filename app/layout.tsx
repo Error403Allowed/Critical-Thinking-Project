@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Inter, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const inter = Inter({ 
@@ -15,23 +14,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Debunking Misinformation | Critical Thinking',
   description: 'Learn essential strategies for identifying and debunking misinformation in the digital age. An interactive educational resource for critical thinking.',
-  generator: 'v0.app',
+  generator: 'Next.js',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/tab-icon.png',
+    apple: '/tab-icon.png',
   },
 }
 
@@ -44,7 +30,6 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${geistMono.variable}`}>
       <body className="font-sans antialiased min-h-screen bg-background">
         {children}
-        <Analytics />
       </body>
     </html>
   )

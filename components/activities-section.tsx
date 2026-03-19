@@ -13,6 +13,7 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
+import { Analytics } from "@vercel/analytics/next"
 
 // Headline Challenge Data
 const headlines = [

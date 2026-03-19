@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowDown, AlertTriangle, CheckCircle2, Search, Shield } from "lucide-react"
+import { Analytics } from "@vercel/analytics/next"
 
 export function HeroSection() {
   const [mounted, setMounted] = useState(false)
@@ -25,7 +26,7 @@ export function HeroSection() {
       <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse-slow" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: "2s" }} />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-3xl animate-float" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-primary/10 rounded-full blur-3xl animate-float" />
         
         {/* Grid Pattern */}
         <div 
