@@ -17,21 +17,21 @@ const videos: Video[] = [
     id: "intro",
     title: "What is Misinformation?",
     description: "An introduction to the different types of false information and why it matters for Year 10 students navigating the digital world.",
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    duration: "4:32"
+    embedUrl: "https://www.youtube.com/embed/wyUrV8BELG4",
+    duration: "2:20"
   },
   {
     id: "spotting",
     title: "How to Spot Fake News",
     description: "Learn the SIFT method and other practical techniques to identify misinformation before you share it.",
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    duration: "6:15"
+    embedUrl: "https://www.youtube.com/embed/AkwWcHekMdo",
+    duration: "3:22"
   },
   {
     id: "impact",
     title: "The Real-World Impact",
     description: "Case studies showing how misinformation has affected communities, elections, and public health.",
-    embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    embedUrl: "https://www.youtube.com/embed/EfgYmbxWXvE",
     duration: "5:48"
   }
 ]
