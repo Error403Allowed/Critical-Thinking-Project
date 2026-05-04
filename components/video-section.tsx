@@ -31,7 +31,7 @@ const videos: Video[] = [
     id: "impact",
     title: "The Real-World Impact",
     description: "Case studies showing how misinformation has affected communities, elections, and public health.",
-    embedUrl: "https://www.youtube.com/embed/KHkiyiCSU84",
+    embedUrl: "https://www.youtube.com/embed/aYxn16C14Rs",
     duration: "2:13"
   }
 ]
